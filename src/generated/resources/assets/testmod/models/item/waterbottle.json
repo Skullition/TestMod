@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "texture": "testmod:item/waterbottle"
+  }
+}

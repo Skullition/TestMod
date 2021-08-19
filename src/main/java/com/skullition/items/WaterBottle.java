@@ -1,4 +1,4 @@
-package com.skullition.Items;
+package com.skullition.items;
 
 import net.minecraft.world.item.Item;
 

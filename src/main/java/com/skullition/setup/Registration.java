@@ -1,6 +1,6 @@
 package com.skullition.setup;
 
-import com.skullition.Items.WaterBottle;
+import com.skullition.items.WaterBottle;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fmllegacy.RegistryObject;
