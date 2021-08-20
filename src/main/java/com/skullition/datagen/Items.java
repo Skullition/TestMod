@@ -18,7 +18,7 @@ public class Items extends ItemModelProvider {
         singleTexture(
                 Registration.WATER_BOTTLE.get().getRegistryName().getPath(),
                 new ResourceLocation("item/handheld"),
-                "layers0",
+                "layer0",
                 new ResourceLocation(TestMod.MODID, "item/waterbottle"));
     }
 }

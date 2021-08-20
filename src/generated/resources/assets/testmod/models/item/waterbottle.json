@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layers0": "testmod:item/waterbottle"
+    "layer0": "testmod:item/waterbottle"
   }
 }
