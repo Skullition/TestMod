@@ -1,6 +1,8 @@
 package com.skullition.setup;
 
 import com.skullition.items.WaterBottle;
+import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fmllegacy.RegistryObject;
@@ -17,5 +19,7 @@ public class Registration {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
-    public static final RegistryObject<Item> WATER_BOTTLE = ITEMS.register("waterbottle", () -> new WaterBottle(new Item.Properties()));
+    public static final RegistryObject<Item> WATER_BOTTLE = ITEMS.register("waterbottle", () -> new WaterBottle(new Item.Properties()
+    .tab(CreativeModeTab.TAB_FOOD)
+    .food(new FoodProperties.Builder().nutrition(10).alwaysEat().saturationMod(1).build())));
 }
