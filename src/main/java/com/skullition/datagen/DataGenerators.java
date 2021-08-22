@@ -14,5 +14,9 @@ public class DataGenerators {
         if (event.includeClient()) {
             generator.addProvider(new Items(generator, event.getExistingFileHelper()));
         }
+
+        if (event.includeServer()) {
+            generator.addProvider(new Recipes(generator));
+        }
     }
 }
