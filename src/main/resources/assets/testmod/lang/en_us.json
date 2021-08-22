@@ -1,3 +1,5 @@
 {
-  "item.testmod.waterbottle": "Water Bottle"
+  "item.testmod.waterbottle": "Water Bottle",
+  "tooltip.waterbottle": "This is a water bottle.",
+  "chargelevel.waterbottle": "Water bottle with a charge of %s"
 }
