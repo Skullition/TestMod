@@ -1,5 +1,6 @@
 {
-  "item.testmod.waterbottle": "Water Bottle",
+  "item.testmod.waterbottle": "Mining Water Bottle",
   "tooltip.waterbottle": "This is a water bottle.",
-  "chargelevel.waterbottle": "Water bottle with a charge of %s"
+  "chargelevel.waterbottle": "Right click to consume. Distance of mining is %s block(s)",
+  "increaseamount.waterbottle": "You can mine an extra block. Current distance is %s block(s)"
 }
