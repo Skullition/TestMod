@@ -20,6 +20,6 @@ public class Registration {
     }
 
     public static final RegistryObject<Item> WATER_BOTTLE = ITEMS.register("waterbottle", () -> new WaterBottle(new Item.Properties()
-    .tab(CreativeModeTab.TAB_FOOD)
+    .tab(CreativeModeTab.TAB_TOOLS)
     .food(new FoodProperties.Builder().nutrition(10).alwaysEat().saturationMod(1).build())));
 }
